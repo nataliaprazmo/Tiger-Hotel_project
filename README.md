@@ -1,5 +1,4 @@
-![alt text](https://raw.githubusercontent.com/nataliaprazmo/Tiger-Hotel_project/main/demo.png)
-
+![alt text](./demo.png?raw=true "Demo")
 
 # Tiger Hotel
 
@@ -41,5 +40,5 @@ HTML5 + JavaScript + CSS + Bootstrap 5.1.3
  - [Bootstrap Theme](https://startbootstrap.com/theme/creative)
  - [The Cat API](https://thecatapi.com/)
 
-
-![alt text](https://raw.githubusercontent.com/nataliaprazmo/Tiger-Hotel_project/main/demo3.JPG)
+#
+![alt text](./demo3.jpg?raw=true "Demo")
