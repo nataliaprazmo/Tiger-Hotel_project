@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Hotel dla zwierząt" />
+    <meta content="Hotel, Hotel dla zwierząt, Opieka" name="keywords">
+    <meta name="author" content="Natalia Prażmo" />
+    <title>Tiger Hotel</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top" onload="local_storage_load()">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Tiger Hotel</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">Nasz Hotel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ofert">Oferta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Rezerwacja</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-end">
+                    <h1 class="text-white font-weight-bold">Najlepsze miejsce dla Twojego kota</h1>
+                    <hr class="divider" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 mb-5">Tiger Hotel zadba o bezpieczeństwo i dobre samopoczucie Twojego kota! Poniżej oferowane usługi oraz rezerwacja.</p>
+                    <a class="btn btn-primary btn-xl" href="#about">Zobacz więcej</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="page-section bg-primary" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">Mamy dla Twojego kota dokładnie to, czego potrzebujesz!</h2>
+                    <hr class="divider divider-light" />
+                    <p class="text-white-75 mb-4">Tiger Hotel posiada w swojej ofercie urozmaicony jadłospis dla Twojego zwierzaka, aby był jak najzdrowszy. Oferujemy również od niedawna opcję skorzystania z usług specjalnego dietetyka. Dodatkowo w naszej ofercie znajdziesz wszelkiego
+                        rodzaju rozrywki, aby Twój kociak się nie nudził. Dzięki naszym usługom, możesz wyjechać spokojnie na wakacje i nie martwić się już więcej o bezpieczeństwo Twojego kota!</p>
+                    <a class="btn btn-light btn-xl" href="#ofert">Zobacz!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ofert-->
+    <section class="page-section" id="ofert">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Oferujemy</h2>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Zdrowie</h3>
+                        <p class="text-muted mb-0">Nasza wykwalifikowana kadra zajmie się tym jak najlepiej!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Stały kontakt</h3>
+                        <p class="text-muted mb-0">Skorzystaj z możliwości kontaktu ze swoim zwierzakiem, np. poprzez rozmowę wideo!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Zabawa</h3>
+                        <p class="text-muted mb-0">Wybierz sale zabaw dla swojego kota oraz inne propozycje rozrywek!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Wszystko z serca</h3>
+                        <p class="text-muted mb-0">Nasi opiekunowie zadbają o Twojego kota jak o własnego!</p>
+                    </div>
+                </div>
+            </div>
+            </br>
+            </br>
+            <div class="d-grid justify-content-center"><a class="btn btn-primary btn-xl" href="cennik.html">Cennik</a></div>
+        </div>
+    </section>
+    <!-- galeria-->
+    <div id="galeria">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="galeria-box" href="assets/img/galeria/fullsize/1.jpg" title="Opieka">
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/1.jpg" alt="..." />
+                        <div class="galeria-box-caption">
+                            <div class="project-category text-white-50">Galeria</div>
+                            <div class="project-name">Opieka</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="galeria-box" href="assets/img/galeria/fullsize/2.jpg" title="Zabawa">
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/2.jpg" alt="..." />
+                        <div class="galeria-box-caption">
+                            <div class="project-category text-white-50">Galeria</div>
+                            <div class="project-name">Zabawa</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="galeria-box" href="assets/img/galeria/fullsize/3.jpg" title="Odpoczynek">
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/3.jpg" alt="..." />
+                        <div class="galeria-box-caption">
+                            <div class="project-category text-white-50">Galeria</div>
+                            <div class="project-name">Odpoczynek</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="galeria-box" href="assets/img/galeria/fullsize/4.jpg" title="Jedzenie">
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/4.jpg" alt="..." />
+                        <div class="galeria-box-caption">
+                            <div class="project-category text-white-50">Galeria</div>
+                            <div class="project-name">Jedzenie</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="galeria-box" href="assets/img/galeria/fullsize/5.jpg" title="Zdrowie">
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/5.jpg" alt="..." />
+                        <div class="galeria-box-caption">
+                            <div class="project-category text-white-50">Galeria</div>
+                            <div class="project-name">Zdrowie</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="galeria-box" href="assets/img/galeria/fullsize/6.jpg" title="Ciekawość">
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/6.jpg" alt="..." />
+                        <div class="galeria-box-caption p-3">
+                            <div class="project-category text-white-50">Galeria</div>
+                            <div class="project-name">Ciekawość</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Call to action-->
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">Dzienna dawka kota!</h2>
+            <button class="btn btn-light btn-xl" onclick="fetchPics()">Zobacz!</button>
+            <div class="mt-3" id="catImg"></div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0">Zarezerwuj miejsce w naszym hotelu już dziś!</h2>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5">Już jesteś pewien, że to właśnie nasz hotel chcesz wybrać dla swojego kota? Nie czekaj i zarezerwuj dla Niego miejsce jak najszybciej!</p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form id="contactForm" data-sb-form-api-token="8e676023-9674-466d-824a-31872c061a54" action="submit">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Imię i nazwisko</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Wymagane podanie imienia i nazwiska.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                            <label for="email">Adres email</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Wymagane podanie emailu.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Niepoprawny email.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="123 456 789" data-sb-validations="required" />
+                            <label for="phone">Numer telefonu</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Wymagane podanie numeru telefonu.</div>
+                        </div>
+                        <!-- Calendar-->
+                        <div>
+                            <label for="date">Data rozpoczęcia rezerwacji</label>
+                            <input class="form-control" id="date" name="date1" type="date" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="date:required">Podanie daty jest obowiązkowe.</div>
+                        </div>
+                        </br>
+                        <div>
+                            <label for="date">Data zakończenia rezerwacji</label>
+                            <input class="form-control" id="date" name="date2" type="date" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="date:required">Podanie daty jest obowiązkowe.</div>
+                        </div>
+                        </br>
+                        <!-- Choose standard and extras -->
+                        <div class="form-justify mb-3">
+                            <label for="standard">Wybierz standard pobytu </label>
+                            <select name="standard" size="1" id="standard">
+                                <option>STANDARDOWY</option>
+                                <option>EXTRA z poradą dietetyka</option>
+                                <option>EXTRA z opieką lekarzy</option>
+                                <option>FULL EXTRA</option>
+                              </select>
+                            <div class="invalid-feedback" data-sb-feedback="standard:required">Wymagane wybranie standardu.</div>
+                        </div>
+                        </br>
+                        <!-- Choose payment method -->
+                        <div class="form-justify mb-3">
+                            <input type="radio" name="payment" value="visa" id="visa" checked required/>
+                            <label for="euro">visa</label>
+                            <input type="radio" name="payment" value="blik" id="blik" required/>
+                            <label for="visa">Blik</label>
+                            <input type="radio" name="payment" value="bankowy" id="bankowy" required/>
+                            <label for="przelew">przelew bankowy</label>
+                            <input type="radio" name="payment" value="osobiscie" id="osobiscie" required/>
+                            <label for="przelew">płatność na miejscu</label>
+                            <div class="invalid-feedback" data-sb-feedback="payment:required">Wymagane wybranie metody płatności.</div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
+                            <label for="message">Dodatkowe informacje dla opiekunów</label>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" onclick="local_storage_save()">Zarezerwuj</button></div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Udało się zarezerwować miejsce dla Twojego pupila!</div>
+                                Aby aktywować ten formularz, zarejestruj się na
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Nie udało się dokonać rezerwacji!</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>+48 123 456 789</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">NP&copy; 2022 - Tiger Hotel</div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
