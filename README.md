@@ -41,4 +41,5 @@ HTML5 + JavaScript + CSS + Bootstrap 5.1.3
  - [The Cat API](https://thecatapi.com/)
 
 #
-![alt text](./demo3.jpg?raw=true "Demo")
+
+![alt text](./demo3.png?raw=true "Demo3")
